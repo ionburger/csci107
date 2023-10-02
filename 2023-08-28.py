@@ -1,0 +1,5 @@
+p = float(input("what is currently in the bank account (usd): "))
+r = float(input("what is the interest rate defined as a decimal (eg, 0.05): "))
+t = float(input ("how long will this money be kept in the account (years): "))
+n = float(input("compounded how often? (in quarters): "))
+print(f{"$",round((p*(1+(r/n))**(n*t)), 2)})
